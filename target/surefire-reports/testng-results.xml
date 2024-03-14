@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-13T20:43:42 IST" name="Surefire suite" finished-at="2024-03-13T20:44:04 IST" duration-ms="21845">
+  <suite started-at="2024-03-14T16:04:19 IST" name="Surefire suite" finished-at="2024-03-14T16:04:38 IST" duration-ms="19148">
     <groups>
     </groups>
-    <test started-at="2024-03-13T20:43:42 IST" name="Surefire test" finished-at="2024-03-13T20:44:04 IST" duration-ms="21845">
+    <test started-at="2024-03-14T16:04:19 IST" name="Surefire test" finished-at="2024-03-14T16:04:38 IST" duration-ms="19148">
       <class name="com.handson.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.handson.RegisterTest@3745e5c6]" started-at="2024-03-13T20:42:18 IST" name="setup" finished-at="2024-03-13T20:43:42 IST" duration-ms="83556" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.handson.RegisterTest@71c8becc]" started-at="2024-03-14T16:02:36 IST" name="setup" finished-at="2024-03-14T16:04:19 IST" duration-ms="103019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:com.handson.RegisterTest@3745e5c6]" started-at="2024-03-13T20:43:42 IST" name="test" finished-at="2024-03-13T20:44:04 IST" duration-ms="21425" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.handson.RegisterTest@71c8becc]" started-at="2024-03-14T16:04:19 IST" name="test" finished-at="2024-03-14T16:04:38 IST" duration-ms="19090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="TearUp()[pri:0, instance:com.handson.RegisterTest@3745e5c6]" started-at="2024-03-13T20:44:04 IST" name="TearUp" finished-at="2024-03-13T20:44:07 IST" duration-ms="2714" status="PASS">
+        <test-method is-config="true" signature="TearUp()[pri:0, instance:com.handson.RegisterTest@71c8becc]" started-at="2024-03-14T16:04:39 IST" name="TearUp" finished-at="2024-03-14T16:04:58 IST" duration-ms="19396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearUp -->
