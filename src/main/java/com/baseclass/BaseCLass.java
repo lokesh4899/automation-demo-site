@@ -16,9 +16,12 @@ public class BaseCLass {
 	@BeforeSuite
 	public void setup() {
 		WebDriverManager.edgedriver().setup();
-		EdgeOptions edgeOptions = new EdgeOptions();
-		edgeOptions.addArguments("--remote-allow-origins=*", "ignore-certificate-errors");
-		driver=new EdgeDriver(edgeOptions);
+//		EdgeOptions edgeOptions = new EdgeOptions();
+//		edgeOptions.addArguments("--remote-allow-origins=*", "ignore-certificate-errors");
+		ChromeOptions chropmeoptions=new ChromeOptions();
+		chropmeoptions.addArguments("--remote-allow-origins=*", "ignore-certificate-errors");
+		chropmeoptions.addArguments("--incognito");
+		driver=new ChromeDriver(chropmeoptions);
 		driver.manage().window().maximize();
 		/*ChromeOptions chropmeoptions=new ChromeOptions();
 		chropmeoptions.addArguments("--remote-allow-origins=*", "ignore-certificate-errors");
@@ -29,7 +32,7 @@ public class BaseCLass {
 	
 	@AfterSuite
 	public void TearUp() {
-		driver.close();
+		//driver.close();
 	}
 	
 

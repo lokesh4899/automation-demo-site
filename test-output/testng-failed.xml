@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.handson.RegisterTest">
+      <class name="com.handson.SelectableTest">
         <methods>
           <include name="setup"/>
           <include name="TearUp"/>
-          <include name="test"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.handson.RegisterTest -->
+      </class> <!-- com.handson.SelectableTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
